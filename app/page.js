@@ -1,4 +1,8 @@
 import styles from './page.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
+
+
 export default function Home() {
   return (
     <main className={styles.all}>
@@ -12,7 +16,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-          traveloka <span></span>
+          traveloka 
           </h2>
         
         </a>
@@ -25,7 +29,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-          booking <span></span>
+          booking 
           </h2>
           
         </a>
@@ -38,7 +42,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-          trivago <span></span>
+          trivago 
           </h2>
         
         </a>
@@ -51,14 +55,43 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-          agoda <span></span>
+          agoda 
           </h2>
          
         </a>
       </div>
 
+      <maintwp className={styles.alltwo}>
       <div className={styles.bodye}>
+        <Image src = "/รีสอร์ท.jpeg" width={370} height ={195} alt='room'/>
       </div>
+
+      <div className={styles.bodyf}>
+        <Image src = "/โรงแรม.jpeg" width={370} height ={195} alt='room'/>
+      </div>
+      <div className={styles.bodyg}>
+        <Image src = "/วิลล่า.jpeg" width={370} height ={195} alt='room'/>
+      </div>
+      <div className={styles.bodyh}>
+        <Image src = "/อพาตแมน.jpeg" width={377} height ={195} alt='room'/>
+      </div>
+
+      </maintwp>
+      
+      <maintwp className={styles.allthree}>
+      <a
+          href="./AboutUs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+          about
+          </h2>
+         
+        </a>
+      </maintwp>
+      
+
     </main>
   )
 }

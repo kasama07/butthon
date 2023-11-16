@@ -54,9 +54,40 @@
   margin-bottom: 5px;
   text-align: center;
 }
+.alltwo {
+  background: #8d0909;
+  display: flex;
+  flex-flow: row wrap;
+  height: 205px;
+  width: 3000px;
+  
+}
 .bodye {
-  background:#ffffff;
-  flex: 1 100%;
-  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.bodyf {
+  margin-right: 5px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.bodyg {
+  margin-right: 5px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.bodyh {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.allthree {
+  background: #591919;
+  display: flex;
+  flex-flow: row wrap;
+  height: 1000px;
+  width: 3000px;
   
 }

@@ -1,0 +1,70 @@
+
+
+.bigbox {
+    background: #ffff;
+    height: 100px;
+    display: flex; 
+    flex-flow: row wrap;
+    
+
+    
+
+
+}
+.boxone {
+    transform: translate(400px,50px);
+    border: solid 1px #040404;
+    border-radius: 0.5rem;
+    height: 40px;
+    margin-right: 10px;
+    
+
+    
+}
+.boxone input {
+    height: 30px;
+    border: none;
+    outline: none;
+   
+    
+    
+}
+
+.boxtwo {
+    transform: translate(405px,50px);
+    border: solid 1px #040404;
+    border-radius: 0.5rem;
+    height: 40px;
+    margin-right: 10px;
+}
+.boxtwo input{
+    height: 30px;
+    border: none;
+    outline: none;
+  
+}
+.boxthree {
+    transform: translate(410px,50px);
+    border: solid 1px #040404;
+    border-radius: 0.5rem;
+    height: 40px;
+    margin-right: 10px;
+}
+.boxthree input{
+    height: 30px;
+    border: none;
+    outline: none;
+    
+}
+.boxfour {
+    transform: translate(415px,50px);
+    
+}
+.boxfour button{
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: blue;
+   
+    
+}
